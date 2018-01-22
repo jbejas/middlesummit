@@ -1,0 +1,94 @@
+/* CSS Document */
+
+@media screen and (max-width: 992px) {
+	.metaDisertante {
+		clear:both;
+		width:100%;
+	}
+	
+	.imgDisertante {
+		width:100%;
+	}
+	
+	.imgDisertante img {
+		width:100%;
+		height:auto;
+	}
+	
+	.arrowDisertante {
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		transform: rotate(90deg);
+		top:-29px;
+		left:60%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	
+	.footer li a img {
+		margin-top:20px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.footer li {
+		width: 33.3333333333333%;
+		height:72px;
+	}
+	
+	.footer li a img {
+		height:72px;
+		width:auto;
+	}
+	
+	.container {
+		padding:0;
+	}
+	
+	.bordeBlancoIzquierda {
+		border-left:none;
+		border-top: 2px solid #FFF;
+		padding-top:15px;
+		margin-top:15px;
+		text-align:center;
+	}
+	
+	.separador {
+		height:15px;
+	}
+	
+	.disertante {
+		width:62%;
+		margin:15px auto;
+	}
+	
+	.modal.in .modal-dialog {
+		margin:0 auto;
+	}
+	
+	#formContacto .text-right {
+		text-align: center;
+	}
+	
+	.footer {
+		height:65px;
+		padding-top:15px;
+	}
+	
+	.txt20 {
+		font-size:1em;
+	}
+	
+	.txt16 {
+		font-size:0.9em;
+	}
+}
+
+@media screen and (max-width: 481px) {
+	.txt18 {
+		font-size:15px !important;
+	}
+}
